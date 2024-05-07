@@ -4,18 +4,6 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
@@ -98,9 +86,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Anna Gridasova](https://www.your-site.com)
+
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
