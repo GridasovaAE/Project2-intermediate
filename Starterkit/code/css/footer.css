@@ -1,0 +1,66 @@
+.icon {
+    background-image: url(/Project2-intermediate/Starterkit/code/images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* height: 200vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+
+}
+
+.icon div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon .logo {
+   
+    margin: 20px;
+    width: 100px;
+}
+
+.hr hr {
+    /* margin: 20px 10px auto; */
+    width: 90%;
+    color: var(--veryLightGray);
+}
+
+.footer_cards  {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer_cards ul {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: var(--darkViolet);
+    padding: 10px;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer_cards h3 {
+    text-align: center;
+    color: var(--darkGrayishViolet);
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+li {
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+#we_are_different {
+    margin: 50px 40px;
+    text-align: center;
+
+}
+
+#we_are_different h1,
+h3 {
+    text-transform: none;
+    padding: 30px;
+    color: var(--darkViolet);
+}
+
+#we_are_different p {
+    color: var(--darkGrayishViolet);
+}
+
+hr {
+    margin: auto;
+    width: 30%;
+    color: var(--veryLightGray);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#how_we_work {
+    background-color: var(--darkViolet);
+    text-align: center;
+    color: var(--veryLightGray);
+    padding: 20px 30px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#how_we_work img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+}
+
+#how_we_work h1 {
+    text-transform: none;
+    padding: 20px;
+    
+}
+

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400, 700;
+    font-size: 16px;
+    width: 375px;
+    height: 100%;
+}
+
+:root {
+    --darkViolet: hsl(256, 26%, 20%);
+    --grayishBlue: hsl(216, 30%, 68%);
+    --veryDarkViolet: hsl(270, 9%, 17%);
+    --darkGrayishViolet: hsl(273, 4%, 51%);
+    --veryLightGray: hsl(0, 0%, 98%);
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}
+
+nav img {
+    margin: 20px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: var(--darkGrayishViolet);
+    text-decoration: none;
+    padding: 3px;
+}
+
+/* nav a::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: var(--main-brand-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 150ms ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+} */
+
+#toggle_button {
+    display: none;
+} 
+
+/* .icon-hamburger {
+    display: none;
+    font: size 40px;
+} */
+
+/* @media (max-width: 768px) {
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--secondary-color);
+        padding: 15px;
+        border-radius: 0 0 25px 0;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    #toggle_button:checked~ul {
+        display: flex;
+    }
+
+    label[for="toggle_button"] {
+        display: block;
+    }
+
+} */
+
+.introImage {
+    background-image: url(/Project2-intermediate/Starterkit/code/images/image-intro-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+
+#view_plans {
+    text-align: left;
+    background-color: var(--darkViolet);
+    color: var(--veryLightGray);
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+button {
+    color: var(--veryLightGray);
+    border-radius: 0%;
+    border: 2px solid var(--veryLightGray);
+    background-color: var(--darkViolet);
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.text img {
+    position: absolute;
+}
+
+.patternLeftIntro {
+    left: 0;
+    top: 0;
+}
+
+.patternRightIntro {
+    right: 0;
+    bottom: -180px;
+}
+
+.text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#view_plans h1 {
+    text-transform: none;
+}
+
+@media only screen and (min-width: 1440px) {
+    .body {
+        width: 1440px;
+    }
+    
+    .introImage {
+        background-image: url(/Project2-intermediate/Starterkit/code/images/image-intro-desktop.jpg);
+       
+    }
+
+    
+}
