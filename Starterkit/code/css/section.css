@@ -29,7 +29,10 @@ hr {
     gap: 50px;
 }
 
-#how_we_work {
+.how_we_work {
+    
+    display: flex;
+    flex-direction: column;
     background-color: var(--darkViolet);
     text-align: center;
     color: var(--veryLightGray);
@@ -39,16 +42,83 @@ hr {
     position: relative;
 }
 
-#how_we_work img {
+.how_we_work img {
     position: absolute;
     top: 0;
     height: 100%;
     right: 0;
 }
 
-#how_we_work h1 {
+.how_we_work h1 {
     text-transform: none;
     padding: 20px;
-    
+
 }
 
+@media (min-width: 1440px) {
+    body {
+        width: 1440px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        text-align: left;
+    }
+
+    #we_are_different {
+        margin: 200px 30px 90px 30px;
+
+    }
+
+    #we_are_different h1 {
+        font-size: 3rem;
+    }
+
+
+
+    #we_are_different h1, h3 {
+        text-align: left;
+        padding: 20px 20px 20px 0;
+
+
+
+    }
+
+    #we_are_different hr {
+        margin: 10px 20px;
+        width: 10%;
+        color: var(--veryLightGray);
+    }
+
+    .how_we_workContent {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+        align-items: center;
+       
+    }
+
+    .how_we_work h1 {
+        font-size: 3rem;
+    }
+
+
+
+    .how_we_work {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+}
