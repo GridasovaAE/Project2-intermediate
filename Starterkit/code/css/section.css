@@ -29,8 +29,18 @@ hr {
     gap: 50px;
 }
 
+.how_we_work button {
+    color: var(--veryLightGray);
+    border-radius: 0%;
+    border: 2px solid var(--veryLightGray);
+    background-color: var(--darkViolet);
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
 .how_we_work {
-    
     display: flex;
     flex-direction: column;
     background-color: var(--darkViolet);

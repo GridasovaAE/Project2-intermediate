@@ -28,22 +28,46 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 2rem;
+}
 
+.anchorButton {
+    border-radius: 0%;
+    border: 2px solid var(--veryDarkViolet);
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    padding-top: 9px;
+}
+
+.anchorButton a {
+    color: var(--veryDarkViolet);
 }
 
 nav img {
     margin: 20px;
 }
 
-nav {
-    margin-bottom: 30px;
+.icon-hamburger {
+    display: inline;
 }
 
-nav ul {
-    list-style: none;
+nav {
+    margin: 20px 50px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
     gap: 10px;
+}
+
+
+
+nav ul {
+    display: none;
+    /* display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center; */
+
 }
 
 nav a {
@@ -76,6 +100,7 @@ nav a {
     background-color: var(--darkViolet);
     color: var(--veryLightGray);
 
+
 }
 
 .button {
@@ -85,7 +110,7 @@ nav a {
 
 }
 
-button {
+.view_plans button {
     color: var(--veryLightGray);
     border-radius: 0%;
     border: 2px solid var(--veryLightGray);
@@ -130,6 +155,23 @@ button {
         width: 1440px;
     }
 
+    nav {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: center;
+    }
+
+
+
 
     .introImage {
         background-image: url(/Project2-intermediate/Starterkit/code/images/image-intro-desktop.jpg);
@@ -140,7 +182,7 @@ button {
     }
 
     .view_plans {
-        
+        width: 100vw;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
@@ -155,8 +197,8 @@ button {
         width: 50vw;
         display: flex;
         flex-direction: column;
-        
-        align-items: flex-start ;
+
+        align-items: flex-start;
         text-align: left;
     }
 
@@ -164,5 +206,10 @@ button {
         width: 99vw;
     }
 
-}
+    .icon-hamburger {
+        display: none;
+    }
 
+
+
+}
